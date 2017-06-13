@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+ <html>
+ <head>
+    <meta charset='utf-8'></meta>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'></meta>
+    <meta name='viewport' content='width=device-width, initial-scale=1'></meta>
+	<title>File upload</title>
+</head>
+<body>
+	<h1>upload file, application will return JSON with file name and size.</h1>
+	<form action= '/upload' method= 'post' enctype='multipart/form-data'>
+		<input type= 'file' name='file'></input>
+		<input type= 'submit' value= 'upload'></input>
+	</form>
+</body>

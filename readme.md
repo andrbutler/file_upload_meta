@@ -1,0 +1,1 @@
+app that accepts file as input, and returns file name and size(in bytes) as JSON.
